@@ -1,0 +1,423 @@
+
+*** Running vivado
+    with args -log fir_serial.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir_serial.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-1460] Use of init.tcl in C:/Users/Morris/AppData/Roaming/Xilinx/Vivado/init.tcl is deprecated. Please use Vivado_init.tcl 
+Sourcing tcl script 'C:/Users/Morris/AppData/Roaming/Xilinx/Vivado/init.tcl'
+source fir_serial.tcl -notrace
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 648.805 ; gain = 353.301
+Command: synth_design -top fir_serial -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 22988 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1170.848 ; gain = 230.543
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'fir_serial' [C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/new/fir_serial.vhd:13]
+INFO: [Synth 8-3491] module 'dds_compiler_0' declared at 'C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.runs/synth_1/.Xil/Vivado-18620-Mozey/realtime/dds_compiler_0_stub.v:6' bound to instance 'dds' of component 'dds_compiler_0' [C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/new/fir_serial.vhd:40]
+INFO: [Synth 8-6157] synthesizing module 'dds_compiler_0' [C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.runs/synth_1/.Xil/Vivado-18620-Mozey/realtime/dds_compiler_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dds_compiler_0' (1#1) [C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.runs/synth_1/.Xil/Vivado-18620-Mozey/realtime/dds_compiler_0_stub.v:6]
+WARNING: [Synth 8-614] signal 'reg' is read in the process but is not in the sensitivity list [C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/new/fir_serial.vhd:88]
+WARNING: [Synth 8-614] signal 'ct' is read in the process but is not in the sensitivity list [C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/new/fir_serial.vhd:88]
+WARNING: [Synth 8-614] signal 'h' is read in the process but is not in the sensitivity list [C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/new/fir_serial.vhd:88]
+WARNING: [Synth 8-614] signal 'accum' is read in the process but is not in the sensitivity list [C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/new/fir_serial.vhd:88]
+INFO: [Synth 8-256] done synthesizing module 'fir_serial' (2#1) [C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/new/fir_serial.vhd:13]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port clk21x
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[31]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[30]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[29]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[28]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[27]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[26]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[25]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[24]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[23]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[22]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[21]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[20]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[19]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[18]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[17]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[16]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[15]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[14]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[13]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[12]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[11]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[10]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[9]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[8]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[7]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[6]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[5]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[4]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[3]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[2]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[1]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1243.832 ; gain = 303.527
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1243.832 ; gain = 303.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1243.832 ; gain = 303.527
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1243.832 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/ip/dds_compiler_0_1/dds_compiler_0/dds_compiler_0_in_context.xdc] for cell 'dds'
+Finished Parsing XDC File [c:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/ip/dds_compiler_0_1/dds_compiler_0/dds_compiler_0_in_context.xdc] for cell 'dds'
+Parsing XDC File [C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1338.785 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1338.785 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 1338.785 ; gain = 398.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 1338.785 ; gain = 398.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for dds. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 1338.785 ; gain = 398.480
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'output_reg' [C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/new/fir_serial.vhd:94]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1338.785 ; gain = 398.480
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	                9 Bit    Registers := 20    
++---Multipliers : 
+	                15x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module fir_serial 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	                9 Bit    Registers := 20    
++---Multipliers : 
+	                15x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP accum0, operation Mode is: C+A*B.
+DSP Report: operator accum0 is absorbed into DSP accum0.
+DSP Report: operator accum1 is absorbed into DSP accum0.
+WARNING: [Synth 8-3331] design fir_serial has unconnected port clk21x
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[31]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[30]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[29]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[28]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[27]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[26]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[25]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[24]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[23]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[22]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[21]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[20]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[19]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[18]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[17]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[16]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[15]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[14]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[13]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[12]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[11]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[10]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[9]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[8]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[7]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[6]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[5]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[4]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[3]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[2]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[1]
+WARNING: [Synth 8-3331] design fir_serial has unconnected port impulse[0]
+INFO: [Synth 8-3886] merging instance 'reg_reg[0][7]' (FDE) to 'reg_reg[0][8]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[1][8]' (FDE) to 'reg_reg[1][7]'
+INFO: [Synth 8-3886] merging instance 'output_reg[31]' (LD) to 'output_reg[37]'
+INFO: [Synth 8-3886] merging instance 'output_reg[32]' (LD) to 'output_reg[37]'
+INFO: [Synth 8-3886] merging instance 'output_reg[33]' (LD) to 'output_reg[37]'
+INFO: [Synth 8-3886] merging instance 'output_reg[34]' (LD) to 'output_reg[37]'
+INFO: [Synth 8-3886] merging instance 'output_reg[35]' (LD) to 'output_reg[37]'
+INFO: [Synth 8-3886] merging instance 'output_reg[36]' (LD) to 'output_reg[37]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[2][7]' (FDE) to 'reg_reg[2][8]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[3][8]' (FDE) to 'reg_reg[3][7]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[4][7]' (FDE) to 'reg_reg[4][8]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[5][8]' (FDE) to 'reg_reg[5][7]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[6][7]' (FDE) to 'reg_reg[6][8]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[7][8]' (FDE) to 'reg_reg[7][7]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[8][7]' (FDE) to 'reg_reg[8][8]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[9][8]' (FDE) to 'reg_reg[9][7]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[10][7]' (FDE) to 'reg_reg[10][8]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[11][8]' (FDE) to 'reg_reg[11][7]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[12][7]' (FDE) to 'reg_reg[12][8]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[13][8]' (FDE) to 'reg_reg[13][7]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[14][7]' (FDE) to 'reg_reg[14][8]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[15][8]' (FDE) to 'reg_reg[15][7]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[16][7]' (FDE) to 'reg_reg[16][8]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[17][8]' (FDE) to 'reg_reg[17][7]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[18][7]' (FDE) to 'reg_reg[18][8]'
+INFO: [Synth 8-3886] merging instance 'reg_reg[19][8]' (FDE) to 'reg_reg[19][7]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 1338.785 ; gain = 398.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|fir_serial  | h[0]       | 32x14         | LUT            | 
+|fir_serial  | h[0]       | 32x14         | LUT            | 
++------------+------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping	Report (see note below)
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|fir_serial  | C+A*B       | 15     | 10     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:47 ; elapsed = 00:00:58 . Memory (MB): peak = 1369.020 ; gain = 428.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:58 . Memory (MB): peak = 1369.316 ; gain = 429.012
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:58 . Memory (MB): peak = 1382.176 ; gain = 441.871
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:55 ; elapsed = 00:01:06 . Memory (MB): peak = 1397.988 ; gain = 457.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:55 ; elapsed = 00:01:06 . Memory (MB): peak = 1397.988 ; gain = 457.684
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:55 ; elapsed = 00:01:06 . Memory (MB): peak = 1397.988 ; gain = 457.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:55 ; elapsed = 00:01:06 . Memory (MB): peak = 1397.988 ; gain = 457.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:55 ; elapsed = 00:01:06 . Memory (MB): peak = 1397.988 ; gain = 457.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:55 ; elapsed = 00:01:06 . Memory (MB): peak = 1397.988 ; gain = 457.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |dds_compiler_0 |         1|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |dds_compiler_0 |     1|
+|2     |BUFG           |     2|
+|3     |CARRY4         |     8|
+|4     |DSP48E1        |     1|
+|5     |LUT1           |     1|
+|6     |LUT2           |    13|
+|7     |LUT3           |     2|
+|8     |LUT4           |    52|
+|9     |LUT5           |    40|
+|10    |LUT6           |    95|
+|11    |FDRE           |   160|
+|12    |LD             |    32|
+|13    |IBUF           |     2|
+|14    |OBUF           |    38|
++------+---------------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   480|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:55 ; elapsed = 00:01:07 . Memory (MB): peak = 1397.988 ; gain = 457.684
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 34 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:41 ; elapsed = 00:01:03 . Memory (MB): peak = 1397.988 ; gain = 362.730
+Synthesis Optimization Complete : Time (s): cpu = 00:00:55 ; elapsed = 00:01:07 . Memory (MB): peak = 1397.988 ; gain = 457.684
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1410.027 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1410.027 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  LD => LDCE: 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 71 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:01:25 . Memory (MB): peak = 1410.027 ; gain = 730.020
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1410.027 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.runs/synth_1/fir_serial.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fir_serial_utilization_synth.rpt -pb fir_serial_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 14 13:29:20 2021...

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fir_parallel_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fir_parallel_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="27240001fs"></ZoomEndTime>
+      <Cursor1Time time="30000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/fir_parallel_tb/CP" type="other">
+      <obj_property name="ElementShortName">CP</obj_property>
+      <obj_property name="ObjectShortName">CP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_parallel_tb/clk_tb" type="logic">
+      <obj_property name="ElementShortName">clk_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_parallel_tb/rst_tb" type="logic">
+      <obj_property name="ElementShortName">rst_tb</obj_property>
+      <obj_property name="ObjectShortName">rst_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_parallel_tb/output_tb" type="array">
+      <obj_property name="ElementShortName">output_tb[37:0]</obj_property>
+      <obj_property name="ObjectShortName">output_tb[37:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">500</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-1000000000.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">1000000000.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_parallel_tb/uut/extend_sine" type="array">
+      <obj_property name="ElementShortName">extend_sine[15:0]</obj_property>
+      <obj_property name="ObjectShortName">extend_sine[15:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+      <obj_property name="AnalogYRangeMin">-128.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">128.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_parallel_tb/uut/reg" type="array">
+      <obj_property name="ElementShortName">reg[0:19]</obj_property>
+      <obj_property name="ObjectShortName">reg[0:19]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fir_parallel_tb/uut/x_in" type="other">
+      <obj_property name="ElementShortName">x_in</obj_property>
+      <obj_property name="ObjectShortName">x_in</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_AUTO</obj_property>
+      <obj_property name="AnalogYRangeMin">-128.000000</obj_property>
+      <obj_property name="AnalogYRRangeMax">128.000000</obj_property>
+      <obj_property name="AnalogInterpolation">ANALOG_INTERPOLATION_LINEAR</obj_property>
+      <obj_property name="AnalogOffscale">ANALOG_OFFSCALE_HIDE</obj_property>
+      <obj_property name="AnalogHorizLine">0.000000</obj_property>
+   </wvobject>
+</wave_config>

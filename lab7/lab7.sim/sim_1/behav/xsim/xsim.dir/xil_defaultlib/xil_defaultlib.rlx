@@ -1,0 +1,12 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sim_1/new/fir_ip_tb.vhd,1636826885,vhdl,,,,fir_ip_tb,,,,,,,,
+C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sim_1/new/fir_parallel_tb.vhd,1636832830,vhdl,,,,fir_parallel_tb,,,,,,,,
+C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sim_1/new/fir_serial_tb.vhd,1636923848,vhdl,,,,fir_serial_tb,,,,,,,,
+C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/ip/dds_compiler_0_1/sim/dds_compiler_0.vhd,1636925145,vhdl,,,,dds_compiler_0,,,,,,,,
+C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/ip/fir_compiler_0/sim/fir_compiler_0.vhd,1636484592,vhdl,,,,fir_compiler_0,,,,,,,,
+C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/new/fir_ip.vhd,1636826249,vhdl,,,,fir_ip,,,,,,,,
+C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/new/fir_parallel.vhd,1636832787,vhdl,,,,fir_parallel,,,,,,,,
+C:/Users/Morris/Documents/Fall 21/ECE 524/lab/lab7/lab7/lab7.srcs/sources_1/new/fir_serial.vhd,1636925022,vhdl,,,,fir_serial,,,,,,,,
